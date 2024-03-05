@@ -1,0 +1,12 @@
+.menuNav{
+    color:antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.colocacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
