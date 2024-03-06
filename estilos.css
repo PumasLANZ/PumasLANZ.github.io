@@ -1,5 +1,5 @@
 .menuNav{
-    color:antiquewhite;
+    color:rgb(172, 238, 126);
     display: grid;
     grid-template-columns: repeat(3,1fr);
 
