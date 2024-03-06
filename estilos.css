@@ -1,14 +1,50 @@
+* {
+    background-color: rgb(125, 225, 255)
+}
+
 .menuNav{
     color:black;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(185, 223, 125);
     padding: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(185, 223, 125);
 }
 
 .colocacion{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+ img {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction:column ;
     justify-content: center;
 }
