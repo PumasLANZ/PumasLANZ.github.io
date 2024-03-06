@@ -1,8 +1,10 @@
 .menuNav{
-    color:rgb(172, 238, 126);
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
 }
 
 .colocacion{
